@@ -5,10 +5,10 @@ function driversWithRevenueOver(driver, revenue){
     return driver.revenue > revenue });
 }
 
-function driversWithRevenueOver (drivers, revenue) {
-  return drivers.filter(function (driver) {
-    return driver.revenue > revenue;
-  });
+function driverNamesWithRevnueOver(driver, revenue){
+  let driverNames = driversWithRevenueOver(driver, revenue)
+  driverNames.map ( function (driver){
+    return driver.name });
 }
 
 function exactMatch (drivers, matcher) {
