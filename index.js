@@ -12,7 +12,7 @@ function driverNamesWithRevnueOver(driver, revenue){
 }
 
 function exactMatch(driver, object){
-  let objectKey = object.keys[0]
+  let objectKey = object.keys
   return driver.filter( function (driver){
     return driver.
   }
