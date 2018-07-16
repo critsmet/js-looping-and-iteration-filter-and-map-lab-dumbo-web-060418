@@ -1,7 +1,6 @@
 // Code your solution here:
 
 function driversWithRevenueOver(driver, revenue){
-  return driver.filter( function (driver){
-    return
+  return driver.filter( function (driver) {
   })
 }
